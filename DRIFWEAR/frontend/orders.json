@@ -1,0 +1,279 @@
+[{
+  "_id": {
+    "$oid": "68fcfdf22c49ea6638e671b7"
+  },
+  "orderId": "DW-2024-001",
+  "customer": {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1 (555) 123-4567",
+    "userId": "user_001"
+  },
+  "items": [
+    {
+      "productId": 1,
+      "name": "Classic Fit T-Shirt",
+      "price": 29.99,
+      "quantity": 2,
+      "size": "M",
+      "color": "Black",
+      "image": "/images/women1.jpeg"
+    },
+    {
+      "productId": 2,
+      "name": "Slim Fit Jeans",
+      "price": 49.99,
+      "quantity": 1,
+      "size": "32",
+      "color": "Dark Blue",
+      "image": "/images/women2.jpeg"
+    }
+  ],
+  "total": 109.97,
+  "status": "processing",
+  "paymentStatus": "paid",
+  "paymentMethod": "credit_card",
+  "shippingAddress": {
+    "street": "123 Main Street",
+    "city": "New York",
+    "state": "NY",
+    "zipCode": "10001",
+    "country": "USA"
+  },
+  "billingAddress": {
+    "street": "123 Main Street",
+    "city": "New York",
+    "state": "NY",
+    "zipCode": "10001",
+    "country": "USA"
+  },
+  "createdAt": "2024-01-15T10:30:00Z",
+  "updatedAt": "2024-01-15T10:30:00Z",
+  "shippingMethod": "standard",
+  "shippingCost": 4.99,
+  "tax": 8.5,
+  "notes": "Please deliver after 5 PM"
+},
+{
+  "_id": {
+    "$oid": "68fcfdf22c49ea6638e671b8"
+  },
+  "orderId": "DW-2024-002",
+  "customer": {
+    "name": "Sarah Smith",
+    "email": "sarah.smith@example.com",
+    "phone": "+1 (555) 987-6543",
+    "userId": "user_002"
+  },
+  "items": [
+    {
+      "productId": 3,
+      "name": "Hooded Jacket",
+      "price": 79.99,
+      "quantity": 1,
+      "size": "L",
+      "color": "Navy",
+      "image": "/images/women3.jpeg"
+    }
+  ],
+  "total": 79.99,
+  "status": "shipped",
+  "paymentStatus": "paid",
+  "paymentMethod": "paypal",
+  "shippingAddress": {
+    "street": "456 Oak Avenue",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zipCode": "90210",
+    "country": "USA"
+  },
+  "billingAddress": {
+    "street": "456 Oak Avenue",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zipCode": "90210",
+    "country": "USA"
+  },
+  "createdAt": "2024-01-14T14:20:00Z",
+  "updatedAt": "2024-01-15T09:15:00Z",
+  "shippingMethod": "express",
+  "shippingCost": 9.99,
+  "tax": 6.4,
+  "trackingNumber": "TRK123456789"
+},
+{
+  "_id": {
+    "$oid": "68fcfdf22c49ea6638e671b9"
+  },
+  "orderId": "DW-2024-003",
+  "customer": {
+    "name": "Mike Johnson",
+    "email": "mike.johnson@example.com",
+    "phone": "+1 (555) 456-7890",
+    "userId": "user_003"
+  },
+  "items": [
+    {
+      "productId": 4,
+      "name": "Casual Linen Shirt",
+      "price": 44.99,
+      "quantity": 1,
+      "size": "M",
+      "color": "White",
+      "image": "/images/women4.jpeg"
+    },
+    {
+      "productId": 5,
+      "name": "Premium Denim Jacket",
+      "price": 89.99,
+      "quantity": 1,
+      "size": "L",
+      "color": "Blue",
+      "image": "/images/women5.jpeg"
+    }
+  ],
+  "total": 134.98,
+  "status": "delivered",
+  "paymentStatus": "paid",
+  "paymentMethod": "credit_card",
+  "shippingAddress": {
+    "street": "789 Pine Road",
+    "city": "Chicago",
+    "state": "IL",
+    "zipCode": "60601",
+    "country": "USA"
+  },
+  "billingAddress": {
+    "street": "789 Pine Road",
+    "city": "Chicago",
+    "state": "IL",
+    "zipCode": "60601",
+    "country": "USA"
+  },
+  "createdAt": "2024-01-13T09:15:00Z",
+  "updatedAt": "2024-01-14T16:45:00Z",
+  "shippingMethod": "standard",
+  "shippingCost": 4.99,
+  "tax": 10.8,
+  "trackingNumber": "TRK987654321"
+},
+{
+  "_id": {
+    "$oid": "68fcfdf22c49ea6638e671ba"
+  },
+  "orderId": "DW-2024-004",
+  "customer": {
+    "name": "Emily Wilson",
+    "email": "emily.wilson@example.com",
+    "phone": "+1 (555) 234-5678",
+    "userId": "user_004"
+  },
+  "items": [
+    {
+      "productId": 13,
+      "name": "Men's Slim Fit Shirt",
+      "price": 39.99,
+      "quantity": 1,
+      "size": "L",
+      "color": "Blue",
+      "image": "/images/men2.jpeg"
+    },
+    {
+      "productId": 14,
+      "name": "Men's Cargo Pants",
+      "price": 49.99,
+      "quantity": 1,
+      "size": "34",
+      "color": "Khaki",
+      "image": "/images/men3.jpeg"
+    }
+  ],
+  "total": 89.98,
+  "status": "pending",
+  "paymentStatus": "pending",
+  "paymentMethod": "credit_card",
+  "shippingAddress": {
+    "street": "321 Elm Street",
+    "city": "Houston",
+    "state": "TX",
+    "zipCode": "77001",
+    "country": "USA"
+  },
+  "billingAddress": {
+    "street": "321 Elm Street",
+    "city": "Houston",
+    "state": "TX",
+    "zipCode": "77001",
+    "country": "USA"
+  },
+  "createdAt": "2024-01-16T08:45:00Z",
+  "updatedAt": "2024-01-16T08:45:00Z",
+  "shippingMethod": "standard",
+  "shippingCost": 4.99,
+  "tax": 7.2
+},
+{
+  "_id": {
+    "$oid": "68fcfdf22c49ea6638e671bb"
+  },
+  "orderId": "DW-2024-005",
+  "customer": {
+    "name": "David Brown",
+    "email": "david.brown@example.com",
+    "phone": "+1 (555) 345-6789",
+    "userId": "user_005"
+  },
+  "items": [
+    {
+      "productId": 23,
+      "name": "Kids Graphic Tee",
+      "price": 19.99,
+      "quantity": 2,
+      "size": "M",
+      "color": "Red",
+      "image": "/images/kids1.jpeg"
+    },
+    {
+      "productId": 24,
+      "name": "Kids Denim Overalls",
+      "price": 24.99,
+      "quantity": 1,
+      "size": "L",
+      "color": "Blue",
+      "image": "/images/kids2.jpeg"
+    },
+    {
+      "productId": 25,
+      "name": "Kids Hooded Jacket",
+      "price": 29.99,
+      "quantity": 1,
+      "size": "M",
+      "color": "Green",
+      "image": "/images/kids3.jpeg"
+    }
+  ],
+  "total": 94.96,
+  "status": "cancelled",
+  "paymentStatus": "refunded",
+  "paymentMethod": "paypal",
+  "shippingAddress": {
+    "street": "654 Maple Drive",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zipCode": "85001",
+    "country": "USA"
+  },
+  "billingAddress": {
+    "street": "654 Maple Drive",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zipCode": "85001",
+    "country": "USA"
+  },
+  "createdAt": "2024-01-12T11:20:00Z",
+  "updatedAt": "2024-01-13T14:30:00Z",
+  "shippingMethod": "standard",
+  "shippingCost": 4.99,
+  "tax": 7.6,
+  "cancellationReason": "Changed mind"
+}]
