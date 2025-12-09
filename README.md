@@ -81,6 +81,14 @@ driftwear/
 └── TODO.md                    # Development tasks
 ```
 
+## 🌐 Live Links
+
+- **Frontend:** [https://websl-frontend.onrender.com](https://websl-frontend.onrender.com)  
+- **Backend:** [https://driftwear-backend.onrender.com](https://driftwear-backend.onrender.com)  
+- **Admin Panel (frontend route):** [https://websl-frontend.onrender.com/admin](https://websl-frontend.onrender.com/admin)
+
+---
+
 ## 🛠️ Installation & Setup
 
 ### Prerequisites
